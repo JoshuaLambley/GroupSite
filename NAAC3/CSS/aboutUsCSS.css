@@ -1,0 +1,69 @@
+.aboutUsContain{
+	display: flex;
+	flex-direction: column;
+	font-family: Times New Roman;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+img{
+	border-radius: 25px;
+	border: rounded;
+	border-style: outset;
+}
+.bodySec{
+	border-style: outset;
+	border-radius: 25px;
+	border: rounded;
+	margin-top: 10px;
+	background-color: white;
+	padding:10px;
+	
+}
+#inTitle{
+	font-family: arial black;
+	font-size: 16px;
+	border-bottom-style: solid;
+	margin-right: 640px;
+}
+#inBody{
+	font-family: arial;
+	font-size: 14px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+#wehsTitle{
+	font-family: arial black;
+	font-size: 16px;
+	border-bottom-style: solid;
+	margin-right: 650px;	
+}
+#wehsBody{
+	font-family: arial;
+	font-size: 14px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+#wehsLink:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+#wehsLink:active{
+	color: lightblue;
+}
+#adoptTitle{
+	font-family: arial black;
+	font-size: 16px;
+	border-bottom-style: solid;
+	margin-right: 600px;
+}
+#adoptBody{
+	font-family: arial;
+	font-size: 14px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+
+

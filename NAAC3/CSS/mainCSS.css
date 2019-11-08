@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+/* HTML Styles */
+html{
+	height: 100%;
+	background-image: url("footprints0.5.jpg");
+	background-repeat: repeat;
+	background-size: 180px;
+	background-color: white;
+	
+}
+
+/* Body Styles */
+body{
+	max-width: 1080px;
+	margin:auto;
+	min-height: 100%; 
+	background-color: rgb(204, 195, 151);
+	border-width: 1px;
+	border-left-style: solid;
+	border-right-style: solid;
+}
+
+/* Header Styles */
+header{
+	display: flex;
+	flex-direction: row;
+	background-color: rgb(58, 58, 58);
+	border-bottom-style: solid;
+	border-width: 1px;
+}
+.headerTitle{
+	display: flex;
+	flex-direction: row;
+	font-size: 30px;
+	font-family: Berlin Sans FB;
+	color: white;
+}
+.headerImage{
+	padding-right: 10px;
+}
+.headerInfo{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	
+}
+.HeaderLinks{
+	display: flex;
+	background-color: rgb(53, 98, 42);	
+	justify-content: space-evenly;
+	margin-left: -215px;
+}
+#Hlink1, #Hlink2, #Hlink3{
+	padding: 10px 50px;
+	color:white;
+	border:
+}
+#Hlink1:hover, #Hlink2:hover, #Hlink3:hover{
+	background-color: rgb(51, 52, 45);
+	cursor: pointer;
+}
+.SignInLink{
+	display: flex;
+	flex-direction: row-reverse;
+	background-color: rgb(53, 98, 42);
+	margin-left: -215px;
+}
+#Slink1{
+	padding: 8px 20px;
+	color:white;
+}
+#Slink1:hover{
+	background-color: rgb(51, 52, 45);
+	cursor: pointer;
+}
+
+/* Footer Styles */
+footer{
+	display: flex;
+	flex-direction: row;
+	border-top-style: solid;
+	border-width: 1px;
+	background-color: rgb(58, 58, 58);
+}
+a {
+	text-decoration: none;
+	color: lightgreen;
+}
+.footerCol1{
+	display: flex;
+	flex-direction: column;
+	margin-left: 10px;
+	margin-right: 100px;
+}
+#footTitle{
+	font-family: Times New Roman;
+	color: white;
+	font-size: 17px;
+}
+#footBody{
+	font-family: Times New Roman;
+	color: lightgrey;
+	font-size: 17px;
+}
+.footerCol2{
+	display: flex;
+	flex-direction: column;
+}
+#footTitle3{
+	font-family: Times New Roman;
+	color: white;
+	font-size: 20px;
+	border-bottom-style: solid;
+	border-color: white;
+	margin-right: 105px;
+}
+#footTitle4{
+	font-family: Times New Roman;
+	color: white;
+	font-size: 20px;
+	border-bottom-style: solid;
+	border-color: white;
+	margin-right: 90px;
+}
+#footBody2{
+	font-family: Times New Roman;
+	font-size: 17px;
+}
+#footBody2:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+#footBody2:active{
+	color: blue;
+}
+
+
+
