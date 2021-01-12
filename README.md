@@ -1,2 +1,2 @@
 # GroupSite
-Group site worked on as a group. I focused on the PHP and backend/database content not the looks!
+Group Website completed while at University of Windsor. I focused on the PHP and backend/database content not the looks!
